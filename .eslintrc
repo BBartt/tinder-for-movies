@@ -5,6 +5,7 @@
         "react/prop-types": 0,
         "react/button-has-type": "off",
         "arrow-body-style": 0,
+        "no-use-before-define": [0],
         "prettier/prettier": [
             "error",
             {
