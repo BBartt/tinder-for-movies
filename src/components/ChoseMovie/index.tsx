@@ -16,7 +16,7 @@ const ChoseMovie: React.FC<IChoseMovie> = ({
         <TinderCard
           key={movie.id}
           onSwipe={(direction) => handleSwipe(direction, movie.id)}
-          className="tinderCard"
+          className="tinder-card"
           preventSwipe={['up', 'down']}
         >
           <div className="movie">
