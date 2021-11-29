@@ -1,0 +1,23 @@
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.main {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}

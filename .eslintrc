@@ -1,17 +1,18 @@
 {
     "extends": [ "wesbos/typescript" ],
     "rules": {
-        "no-console": 2,
+        "no-console": "off",
         "react/prop-types": 0,
         "react/button-has-type": "off",
         "arrow-body-style": 0,
         "no-use-before-define": [0],
+        "linebreak-style": "off",
         "prettier/prettier": [
             "error",
             {
-            "trailingComma": "es5",
+            "trailingComma": "all",
             "singleQuote": true,
-            "printWidth": 120,
+            "printWidth": 70,
             "endOfLine": "auto",
             "tabWidth": 2
             }

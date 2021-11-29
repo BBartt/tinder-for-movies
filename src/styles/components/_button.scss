@@ -1,0 +1,18 @@
+.button {
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &-green {
+    background-color: $green;
+  }
+
+  &-red {
+    background-color: $red;
+  }
+}
