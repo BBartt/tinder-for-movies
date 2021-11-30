@@ -20,7 +20,6 @@ const moviesReducer = (
   state: IinitialState = initialState,
   action: IActionMoviesReducer,
 ): IinitialState => {
-  console.log(`action`, action);
   switch (action.type) {
     case Constants.FETCH_MOVIES_BEGIN:
       return {
