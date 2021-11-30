@@ -7,6 +7,11 @@
         "arrow-body-style": 0,
         "no-use-before-define": [0],
         "linebreak-style": "off",
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": ["error"],
+        "camelcase": "off",
+        "allowAny": "off",
+        "no-unsafe-member-access": "off",
         "prettier/prettier": [
             "error",
             {

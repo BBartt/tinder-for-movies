@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "imageURL": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzNTE2NTkzMV5BMl5BanBnXkFtZTgwMDAzOTUyMDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+    "backdrop_path": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzNTE2NTkzMV5BMl5BanBnXkFtZTgwMDAzOTUyMDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
     "title": "Inferno",
-    "summary": "When Robert Langdon wakes up in an Italian hospital with amnesia, he teams up with Dr. Sienna Brooks, and together they must race across Europe against the clock to foil a deadly global plot.",
-    "rating": 5.3
+    "overview": "When Robert Langdon wakes up in an Italian hospital with amnesia, he teams up with Dr. Sienna Brooks, and together they must race across Europe against the clock to foil a deadly global plot.",
+    "vote_average": 5.3
   },
   {
     "id": 2,
-    "imageURL": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
+    "backdrop_path": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
     "title": "i, Robot",
-    "summary": "Lorem ipsum….",
-    "rating": 8.2
+    "overview": "Lorem ipsum….",
+    "vote_average": 8.2
   },
   {
     "id": 3,
-    "imageURL": "https://m.media-amazon.com/images/I/91WoBvw-HVL._SY445_.jpg",
+    "backdrop_path": "https://m.media-amazon.com/images/I/91WoBvw-HVL._SY445_.jpg",
     "title": "Star Wars: Episode VII - The Force Awakens",
-    "summary": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
-    "rating": 8.2
+    "overview": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
+    "vote_average": 8.2
   },
   {
     "id": 4,
-    "imageURL": "https://m.media-amazon.com/images/M/MV5BZjVhNGQ1OWYtYTJiNi00OWFlLWJhY2MtNTViNzRmMDFmNjk1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg",
+    "backdrop_path": "https://m.media-amazon.com/images/M/MV5BZjVhNGQ1OWYtYTJiNi00OWFlLWJhY2MtNTViNzRmMDFmNjk1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg",
     "title": "Sing 2",
-    "summary": "Buster Moon and his friends must persuade reclusive rock star Clay Calloway to join them for the opening of a new show.",
-    "rating": 8.2
+    "overview": "Buster Moon and his friends must persuade reclusive rock star Clay Calloway to join them for the opening of a new show.",
+    "vote_average": 8.2
   },
   {
     "id": 5,
-    "imageURL": "https://m.media-amazon.com/images/M/MV5BMmM1ZDc5NzAtMzFjMS00NDkxLTk0MTEtMzNlYzE5YTBkZmVhXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1000_.jpg",
+    "backdrop_path": "https://m.media-amazon.com/images/M/MV5BMmM1ZDc5NzAtMzFjMS00NDkxLTk0MTEtMzNlYzE5YTBkZmVhXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1000_.jpg",
     "title": "Star Wars: Episode VII - The Force Awakens",
-    "summary": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
-    "rating": 8.2
+    "overview": "Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate M. Bishop, who took on the role after the original Avenger, Clint Barton.",
+    "vote_average": 8.2
   }
 ]
