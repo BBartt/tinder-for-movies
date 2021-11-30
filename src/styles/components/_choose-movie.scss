@@ -2,53 +2,53 @@
   position: relative;
   margin: 10px auto 0;
   max-width: 600px;
-  height: 75vh;
+  height: 700px;
 
-  .tinder-card {
+  .wrapper {
     position: absolute;
-    background-color: #fff;
-    border-radius: 5px;
     height: inherit;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-
-    &:hover {
-      box-shadow: 0 14px 18px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
-    }
-
-    .movie {
+    .tinder-card {
+      background-color: #fff;
+      border-radius: 5px;
       height: inherit;
-      overflow: auto;
+      width: 100%;
 
-      &-head {
+      display: flex;
+      flex-direction: column;
+
+      box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+      &:hover {
+        box-shadow: 0 14px 18px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+      }
+
+      .movie-head {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 5px;
       }
 
-      &-rating {
+      .movie-rating {
         margin-left: 5px;
       }
 
-      &-image {
+      .movie-image {
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: inherit;
         height: 500px;
       }
 
-      &-summary {
+      .movie-summary {
         padding: 10px;
       }
     }
-
     .actions {
       display: flex;
       justify-content: space-between;
+      position: relative;
     }
   }
 }

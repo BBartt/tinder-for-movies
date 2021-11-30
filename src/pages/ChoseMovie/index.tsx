@@ -24,9 +24,7 @@ const ChoseMoviePage: React.FC = (): JSX.Element => {
         Swipe left to like movie or swipe right to dislike the movie
       </h2>
 
-      {isLoading && <Loader />}
-
-      {movies.length > 0 && <ChoseMovie movies={movies} />}
+      {isLoading ? <Loader /> : <ChoseMovie movies={movies} />}
     </div>
   );
 };
