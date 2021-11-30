@@ -21,12 +21,17 @@
 
     .movie {
       height: inherit;
+      overflow: auto;
 
       &-head {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 5px;
+      }
+
+      &-rating {
+        margin-left: 5px;
       }
 
       &-image {
