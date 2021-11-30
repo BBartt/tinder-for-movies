@@ -10,6 +10,7 @@ function put(
   param?: 'accept' | 'reject',
 ): Promise<AxiosResponse<any, any>> {
   // it should hit /recommendations but I have any api so insted I fetch this particular movie and and place it into state for future usage
+  console.log(`param`, param);
   return API.get(`/movie/${id}`);
   // return API.put(`/recommendations/${id}/${param}`);
 }
