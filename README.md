@@ -3,24 +3,24 @@
 It works like tinder, swipe left or right.
 It has no API, it just fetches some movies from [themoviedb](https://developers.themoviedb.org/3).
 
-### How to run localy?
+## How to run localy?
 
 ```
 npm install
 npm run start
 ```
 
-### Technologies
+## Technologies
 
 Project created with:
 
-- react
-- typeScript
-- redux
+- React
+- TypeScript
+- Redux
 - Redux-thunk
-- axios
-- react-router-dom
-- react-tinder-card
-- sass
+- Axios
+- React-router-dom
+- React-tinder-card
+- Sass
 
-### [live](https://bbartt.github.io/tinder-for-movies/#/)
+## [live](https://bbartt.github.io/tinder-for-movies/#/)
