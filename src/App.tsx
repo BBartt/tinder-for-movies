@@ -2,7 +2,7 @@ import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import ChoseMovie from './pages/ChoseMovie';
+import ChoseMoviePage from './pages/ChoseMoviePage';
 import ContactPage from './pages/ContactPage';
 import { routes } from './routes';
 
@@ -15,7 +15,7 @@ const App: React.FC = () => {
         <main className="main">
           <Switch>
             <Route path={routes.home}>
-              <ChoseMovie />
+              <ChoseMoviePage />
             </Route>
             <Route path={routes.contact}>
               <ContactPage />
