@@ -5,7 +5,7 @@ It has no API, it just fetches some movies from [themoviedb](https://developers.
 
 ## How to run localy?
 
-```
+```javascript
 npm install
 npm run start
 ```
