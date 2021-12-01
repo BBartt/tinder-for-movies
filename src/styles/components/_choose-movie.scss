@@ -42,6 +42,7 @@
 
       .movie-summary {
         padding: 10px;
+        overflow: hidden;
       }
     }
 
@@ -49,6 +50,13 @@
       display: flex;
       justify-content: space-between;
       position: relative;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    height: 400px;
+    .wrapper .tinder-card .movie-summary {
+      height: inherit;
     }
   }
 }
